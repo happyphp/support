@@ -1,0 +1,34 @@
+{
+    "name": "haphp/support",
+    "description": "The Happy Support package.",
+    "license": "MIT",
+    "homepage": "https://haphp.com",
+    "support": {
+        "issues": "https://github.com/happyphp/happy/issues",
+        "source": "https://github.com/happyphp/happy"
+    },
+    "authors": [
+        {
+            "name": "Darwin Luague",
+            "email": "darwin@haphp.io"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "haphp/contracts": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Happy\\Support\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
