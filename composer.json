@@ -15,11 +15,17 @@
     ],
     "require": {
         "php": "^8.3",
-        "haphp/contracts": "^1.0"
+        "ext-mbstring": "*",
+        "haphp/contracts": "^1.0",
+        "league/commonmark": "2.4.1",
+        "ramsey/uuid": "4.7.5",
+        "symfony/uid": "v7.0.0",
+        "voku/portable-ascii": "2.0.1",
+        "symfony/var-dumper": "v7.0.0"
     },
     "autoload": {
         "psr-4": {
-            "Happy\\Support\\": ""
+            "Haphp\\Support\\": ""
         }
     },
     "extra": {

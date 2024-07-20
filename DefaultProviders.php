@@ -1,6 +1,6 @@
 <?php
 
-namespace Happy\Support;
+namespace Haphp\Support;
 
 class DefaultProviders
 {

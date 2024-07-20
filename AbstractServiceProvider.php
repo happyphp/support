@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Happy\Support;
+namespace Haphp\Support;
 
 use Closure;
-//use Happy\Console\Application as Artisan;
-use Happy\Contracts\Container\BindingResolutionException;
-use Happy\Contracts\Foundation\ApplicationInterface;
-use Happy\Contracts\Foundation\CachesConfigurationInterface;
-use Happy\Contracts\Foundation\CachesRoutesInterface;
-use Happy\Contracts\Support\DeferrableProviderInterface;
+//use Haphp\Console\Application as Artisan;
+use Haphp\Contracts\Container\BindingResolutionException;
+use Haphp\Contracts\Foundation\ApplicationInterface;
+use Haphp\Contracts\Foundation\CachesConfigurationInterface;
+use Haphp\Contracts\Foundation\CachesRoutesInterface;
+use Haphp\Contracts\Support\DeferrableProviderInterface;
 
-//use Happy\View\Compilers\BladeCompiler;
+//use Haphp\View\Compilers\BladeCompiler;
 
 abstract class AbstractServiceProvider
 {
